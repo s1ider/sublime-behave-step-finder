@@ -77,8 +77,6 @@ class MatchStepCommand(BehaveBaseCommand):
         self.find_all_steps()
 
         step_filter = re.compile(r'@.*\("(.*)"\)')  # map all steps
-        # print self.steps
-        print short_text
 
         for step in self.steps:
             step_text = re.match(step_filter, step[0]).group(1)
