@@ -16,16 +16,15 @@ on a step in the features file
 ## Package Control
 Installation through [package control](http://wbond.net/sublime_packages/package_control) is recommended. It will handle updating your packages as they become available. To install, do the following.
 
+* In the Command Palette, enter `Package Control: Install Package`
+* Search for `behaveStepFinder`
+
 ## Mac OSX (manual)
     cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
     git clone git://github.com/s1ider/sublime-behave-step-finder.git behaveStepFinder
 
 ## Linux/Windows
 Not tested yet. Contributions are welcome. If keyboard settings are provided, it should work.
-
-
-* In the Command Palette, enter `Package Control: Install Package`
-* Search for `behaveStepFinder`
 
 ## Usage
 The default key-binding for "search" is `super + y`, respectively
