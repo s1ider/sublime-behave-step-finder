@@ -12,6 +12,10 @@ a step using the built-in mechanism for search.
 on a step in the features file
 
 #Installation
+
+## Package Control
+Installation through [package control](http://wbond.net/sublime_packages/package_control) is recommended. It will handle updating your packages as they become available. To install, do the following.
+
 ## Mac OSX (manual)
     cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
     git clone git://github.com/s1ider/sublime-behave-step-finder.git behaveStepFinder
@@ -19,8 +23,6 @@ on a step in the features file
 ## Linux/Windows
 Not tested yet. Contributions are welcome. If keyboard settings are provided, it should work.
 
-## Package Control
-Installation through [package control](http://wbond.net/sublime_packages/package_control) is recommended. It will handle updating your packages as they become available. To install, do the following.
 
 * In the Command Palette, enter `Package Control: Install Package`
 * Search for `behaveStepFinder`
