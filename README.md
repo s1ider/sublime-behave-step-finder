@@ -1,6 +1,6 @@
 # Sublime Text 2 plugin: behave Step Finder
 
-This plugin supports developers to easily navigate to their behave steps.
+This plugin supports developers to easily navigate to their [behave](https://behave.readthedocs.org) steps.
 
 Based on CucumberStepFinder (https://github.com/danielfrey/sublime-cucumber-step-finder)
 
