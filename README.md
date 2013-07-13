@@ -37,7 +37,7 @@ The following settings are available so far.
     {
        "behave_features_path"  :  "features",
        "behave_step_pattern"   :  ".*_steps.*\\.py",
-       "behave_code_keywords"  :  ["given", "when", "then", "and","but"]
+       "behave_code_keywords"  :  ["given", "when", "then", "and", "but"]
     }
 
 The plugin looks for `behave_features_path` as a direct subdirectory of your project. Override this setting if your steps are located in a different subdirectory.
