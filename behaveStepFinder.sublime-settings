@@ -1,0 +1,5 @@
+{
+    "behave_features_path"  :  "features",
+    "behave_step_pattern"   :  ".*_steps.*\\.py",
+    "behave_code_keywords"  :  ["given", "when", "then", "and", "but"]
+}

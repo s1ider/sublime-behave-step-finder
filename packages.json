@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "packages": [
+    {
+      "name": "behaveStepFinder",
+      "description": "Helps to navigate to steps in behave(http://pythonhosted.org/behave/)",
+      "author": "Denis Zvezdov",
+      "homepage": "https://github.com/s1ider/sublime-behave-step-finder",
+      "last_modified": "2013-07-13 13:13:00",
+      "platforms": {
+        "osx": [
+          {
+            "version": "0.1.0",
+            "url": "https://nodeload.github.com/s1ider/sublime-behave-step-finder/zipball/master"
+          }
+        ]
+      }
+    }
+  ]
+}
+

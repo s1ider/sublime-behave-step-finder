@@ -1,0 +1,11 @@
+[
+{
+    "id": "find",
+    "children":
+    [
+        {"id": "find_behave_step"},
+        { "command": "behave_step_finder", "caption": "Find behave Step" },
+        { "command": "match_step", "caption": "Match behave Step" }
+    ]
+}
+]
