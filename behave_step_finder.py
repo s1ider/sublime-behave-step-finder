@@ -40,6 +40,11 @@ class BehaveBaseCommand(sublime_plugin.WindowCommand, object):
 
     def step_found(self, index):
         if index >= 0:
+            if self.window.num_groups() > 1:
+                active_view = self.window.active_view()
+                group, index = self.window.get_view_index(active_view)
+                self.window.focus_group(abs(group - 1))
+
             file_path = self.steps[index][2]
             view = self.window.open_file(file_path)
             self.active_ref = (view, self.steps[index][1])
