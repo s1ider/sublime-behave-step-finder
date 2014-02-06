@@ -17,7 +17,7 @@ class BehaveBaseCommand(sublime_plugin.WindowCommand, object):
         self.step_pattern = self.settings.get('behave_step_pattern')    # Default is '.*_steps.*\.py'
 
     def find_all_steps(self):
-        pattern = re.compile(r'(@(.*)(\(".*))"\)')
+        pattern = re.compile(r'(@(.*)(\(["\'].*))["\']\)')
         self.steps = []
         folders = self.window.folders()
         for folder in folders:
