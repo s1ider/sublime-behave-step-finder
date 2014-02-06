@@ -1,17 +1,17 @@
-# Sublime Text 2 plugin: behave Step Finder
+# Sublime Text 2/3 plugin: Behave Step Finder
 
-This plugin supports developers to easily navigate to their [behave](https://behave.readthedocs.org) steps.
+Easily navigate to [behave](https://behave.readthedocs.org) step definitions.
 
 Based on CucumberStepFinder (https://github.com/danielfrey/sublime-cucumber-step-finder)
 
-It provides by now two commands
+It provides by now two commands:
 
 * One listing all steps in the open project and letting you choose
 a step using the built-in mechanism for search.
 * The second one letting you jump to the corresponding step by calling the "MatchStep"-Command when standing
 on a step in the features file
 
-#Installation
+# Installation
 
 ## Package Control
 Installation through [package control](http://wbond.net/sublime_packages/package_control) is recommended. It will handle updating your packages as they become available. To install, do the following.

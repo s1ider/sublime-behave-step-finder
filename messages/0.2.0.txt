@@ -1,0 +1,6 @@
+* Press 'Ctrl+y' or 'Command+y' to search for step.
+* Jump to corresponding step definition from .feature file by pressing
+  'Ctrl+Super+m' or 'Ctrl+Shift+m'
+
+BehaveStepFinder 0.2.0 Changelog:
++ add ST3 support
